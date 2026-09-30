@@ -1,0 +1,37 @@
+##################################################
+       MINI SECURITY AUDIT TOOL - REPORT          
+##################################################
+
+==================================================
+[+] 1. System Information
+==================================================
+OS: Windows 11
+Version: 10.0.26200
+Machine Hostname: Jillan
+Audit Date: 2026-09-30 17:18:59
+
+==================================================
+[+] 2. Windows Firewall Status
+==================================================
+Domain Profile Settings: 
+----------------------------------------------------------------------
+State                                 ON
+
+Private Profile Settings: 
+----------------------------------------------------------------------
+State                                 ON
+
+Public Profile Settings: 
+----------------------------------------------------------------------
+State                                 ON
+Ok.
+
+==================================================
+[+] 3. Local Common Ports Scan (Audit)
+==================================================
+[!] Warning: Port 135 (RPC) is OPEN on localhost.
+[!] Warning: Port 445 (SMB) is OPEN on localhost.
+[*] Total sensitive open ports found: 2
+
+[✓] Audit completed successfully.
+[✓] Full report saved to: security_audit_report.txt
